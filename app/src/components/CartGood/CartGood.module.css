@@ -1,0 +1,32 @@
+.card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card > div:nth-child(1) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+
+.buttons span {
+    font-size: 1.1em;
+}
+
+.card img {
+    width: 200px;
+}
+
+.card button{
+    padding: 10px;
+    font-size: 1.1em;
+    min-width: 30px;
+    width: fit-content;
+}

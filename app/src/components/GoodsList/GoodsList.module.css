@@ -1,0 +1,48 @@
+.adder {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    width: 80vw;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.adder label {
+    margin-top: 20px;
+    padding: 0;
+    width: 100%;
+    font-size: 1.3em;
+}
+
+.adder input, .adder select {
+    height: 30px;
+    font-size: 1.1em;
+    width: 100%;
+}
+
+.adder textarea {
+    resize:vertical;
+    width: 100%;
+    min-height: 100px;
+    max-height: 500px;
+}
+
+.adder button {
+    margin-top: 20px;
+    width: fit-content;
+    padding: 10px 20px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    width: 80vw;
+    max-width: 600px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.list * {
+    color: black;
+}

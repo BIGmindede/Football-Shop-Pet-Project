@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'MurechoLight';
+    src: url(./Fonts/Murecho-Light.ttf);
+}
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body *{
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'MurechoLight';
+}

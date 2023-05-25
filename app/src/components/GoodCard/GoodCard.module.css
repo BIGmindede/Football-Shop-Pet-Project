@@ -1,0 +1,24 @@
+.itm {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.itm > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.itm button {
+    width: 150px;
+    height: 30px;
+}
+
+.itm img {
+    width: 200px;
+}

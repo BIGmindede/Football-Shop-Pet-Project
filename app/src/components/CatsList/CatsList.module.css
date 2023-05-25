@@ -1,0 +1,38 @@
+.wrap {
+    background-color: aliceblue;
+    padding: 20px 50px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.category {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.185);
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: end;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+
+.category {
+    width: calc(60% - 5px);
+}
+
+.category:nth-child(2), .category:nth-child(3), .category:nth-child(6){
+    width: calc(40% - 5px);
+}
+
+.category:nth-child(7) {
+    width: 100%;
+}
+
+.category:hover {
+    backdrop-filter: brightness(80%);
+}
